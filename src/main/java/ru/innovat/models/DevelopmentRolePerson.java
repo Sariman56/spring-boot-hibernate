@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "development_role_person", schema = "", catalog = "x92176f5_inovat")
+@Table(name = "development_role_person", schema = "", catalog = "x92176f5_inovat") //новый класс роль персоны в разработке
 public class DevelopmentRolePerson {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
